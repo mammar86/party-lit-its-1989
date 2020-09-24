@@ -1,5 +1,6 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 16px / 1;
+  font-family: Georgia, serif;
 }
 
 html {
@@ -9,4 +10,34 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  color: #ffffff;
+  background-color: black;
+  text-align: center;
+}
+
+article {
+  margin-bottom: 8rem;
+  border-bottom: dotted gray 6px;
+  letter-spacing: 0.1rem;
+}
+h1 {
+  padding-bottom: 3rem;
+}
+img {
+  max-width: 400px;
+  max-height: 400px;
+  border: solid gray 6px;
+  border-radius: 2%;
+}
+
+div {
+  margin: auto;
+  text-align: center;
+}
+
+.details :nth-child(3) {
+  max-width: 30%;
+  margin: auto;
+  text-align: justify;
+  padding-bottom: 5rem;
 }
